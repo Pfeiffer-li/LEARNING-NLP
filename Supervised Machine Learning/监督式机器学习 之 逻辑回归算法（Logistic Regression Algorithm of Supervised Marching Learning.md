@@ -1,4 +1,4 @@
-# 监督式机器学习 之 逻辑回归算法（Logistic Regression Algorithm of Supervised Marching Learning
+# 监督式机器学习 之 逻辑回归算法（Logistic Regression Algorithm of Supervised Marching Learning）
 
 ## 一、整体的理解
 
