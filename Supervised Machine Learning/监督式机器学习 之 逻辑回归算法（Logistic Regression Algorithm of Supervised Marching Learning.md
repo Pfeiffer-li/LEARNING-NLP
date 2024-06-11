@@ -44,13 +44,13 @@
 
 　　　　首先分析PosFreq："I"在好的一类的两句话中总共出现了3次，所以这里是3，依次类推，能得出整个frequency dictionary。
 
-                                                          | Vocabulary | PosFreq (1) | NegFreq (0) |
-                                                          | ---------- | ----------- | ----------- |
-                                                          | I          | 3           | 3           |
-                                                          | am         | 3           | 3           |
-                                                          | happy      | 2           | 0           |
-                                                          | because    | 1           | 0           |
-                                                          | learning   | 1           | 1           |
-                                                          | NLP        | 1           | 1           |
-                                                          | sad        | 0           | 2           |
-                                                          | not        | 0           | 1           |
+                                                    | Vocabulary | PosFreq (1) | NegFreq (0) |
+                                                    | ---------- | ----------- | ----------- |
+                                                    | I          | 3           | 3           |
+                                                    | am         | 3           | 3           |
+                                                    | happy      | 2           | 0           |
+                                                    | because    | 1           | 0           |
+                                                    | learning   | 1           | 1           |
+                                                    | NLP        | 1           | 1           |
+                                                    | sad        | 0           | 2           |
+                                                    | not        | 0           | 1           |
