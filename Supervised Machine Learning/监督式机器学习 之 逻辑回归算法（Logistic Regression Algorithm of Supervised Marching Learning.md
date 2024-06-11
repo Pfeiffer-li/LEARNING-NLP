@@ -6,4 +6,4 @@
 
         其次整体的监督式机器学习的过程就是：首先**拿到特征集合X**，然后把特征集合X**投入到预测函数**（prediction function）中运行，在运行过程中我们需要**投入输入参数 $Θ$**，最终也就**获得了模型的预测集合ÿ**，然后用开销函数（cost function）**对比预测集合ÿ与标签集合Y之间的差异**。这个预测函数的处理过程就是我们的模型处理过程。要想我们的模型的效果不错，需要**对我们的参数进行调整，然后重复上述步骤**，直到得出这个差异的最小值，最后就得到了最佳的模型。这里我们画个图加深理解：
         
-![supervised machine learning process](images/supervised machine learning process.png)
+![supervised machine learning process](../images/supervised machine learning process.png)
