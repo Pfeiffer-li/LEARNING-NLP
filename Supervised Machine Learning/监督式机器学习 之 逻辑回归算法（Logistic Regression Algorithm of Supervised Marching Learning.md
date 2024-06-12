@@ -45,7 +45,7 @@
 　　 首先，需要能**够创建频率字典**（frequency dictionary），**目的是能够通过frequency dictionary去表示每个推文**，而不是通过上面长度为n的向量来表示推文。创建过程如下：① 首先你有一组已经分好情感类（好坏两类）的正确的语料库，比如我们的集合标签Y；② 还是一样，先按照单词维度来遍历整组推文（语料库），列出所有单词；**③ 先拿好的情感来说，依次统计所列每个单词在这个预料库中出现了几次**，那么**这个单词出现的次数就可以理解为该单词出现在好的情感这一类下的频率**；对坏的情感类同理，也是对同样的所列单词做统计；得出所有单词在坏类下出现的频率；组合在一起就可以得出频率词典。
 
 ```
-　　　　举个例子：我有一组已经正确的分好情感类的语料库，其中有四组推文，好的情感两句：I am happy because I am learning NLP; I am happy。坏的情感两句：I am sad, I am not learning NLP; I am sad。首先分析PosFreq："I"在好的一类的两句话中总共出现了3次，所以这里是3。之后的依次类推，能得出整个frequency dictionary。由此得出频率词典：
+举个例子：我有一组已经正确的分好情感类的语料库，其中有四组推文，好的情感两句：I am happy because I am learning NLP; I am happy。坏的情感两句：I am sad, I am not learning NLP; I am sad。首先分析PosFreq："I"在好的一类的两句话中总共出现了3次，所以这里是3。之后的依次类推，能得出整个frequency dictionary。由此得出频率词典：
 ```
 
 | Vocabulary | PosFreq (1) | NegFreq (0) |
